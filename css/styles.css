@@ -125,6 +125,8 @@ header .container {
 
 .main-section {
   display: flex;
+  background-image: use("../images/taxi-service.jpg");
+  background-repeat: no-repeat;
   padding: 188px 0;
   background: var(--NAVY-BLUE, #2e2f42);
 }
@@ -182,6 +184,14 @@ header .container {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+.discription-icon {
+  width: 264px;
+  height: 112px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid var(--LIGHT-SLATE, #8e8f99);
+  background: var(--CLOUD, #f4f4fd);
+}
 
 .discription .title-three {
   margin-bottom: 8px;
@@ -228,6 +238,18 @@ header .container {
   display: flex;
 
   gap: 24px;
+}
+.social-list {
+  display: flex;
+  justify-content: space-around;
+}
+.social-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--IRIS, #4d5ae5);
+
+  fill: var(--IRIS, #4d5ae5);
 }
 .title-second {
   color: #2e2f42;
@@ -325,4 +347,17 @@ header .container {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+.footer-text {
+  font-size: 16px;
+  margin-left: 340px;
+  margin-bottom: 16px;
+  color: var(--WHITE, #fff);
+}
+.social-footer {
+  display: flex;
+  flex-direction: column;
+}
+.social-footer .social-list {
+  gap: 24px;
 }
