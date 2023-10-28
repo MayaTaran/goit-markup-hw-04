@@ -90,8 +90,10 @@ header .container {
   gap: 40px;
   align-items: center;
 }
-
-.nav-item .link::after {
+.first-link {
+  color: #404bbf;
+}
+.first-link::after {
   content: "";
   color: #404bbf;
   position: absolute;
@@ -99,6 +101,7 @@ header .container {
   bottom: -1px;
   height: 4px;
   border-radius: 2px;
+  background-color: #404bbf;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-item .link:hover,
