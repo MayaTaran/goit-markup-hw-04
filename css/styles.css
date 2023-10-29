@@ -434,8 +434,8 @@ header .container {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  margin-left: 340px;
   margin-bottom: 16px;
+  margin-left: 340px;
   letter-spacing: 0.02em;
   color: var(--WHITE, #fff);
 }
